@@ -3,6 +3,7 @@ package fb_account_kit
 import (
 	"crypto/hmac"
 	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -10,7 +11,6 @@ import (
 	"io/ioutil"
 	"net/http"
 	"strconv"
-	"encoding/hex"
 )
 
 const (
