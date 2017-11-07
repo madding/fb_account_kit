@@ -14,8 +14,8 @@ Create client
 			<FacebookAppId>,
 			<FacebookAppSecret>)
 ```
-where <authCode> authentification code, <FacebookAppId> id your facebook application can be taked from development page,
-<FacebookAppSecret> application secret from AccountKit tab
+where `<authCode>` authentification code, `<FacebookAppId>` id your facebook application can be taked from development page,
+`<FacebookAppSecret>` application secret from AccountKit tab
 
 After create client if all right you can take profile info:
 ```
